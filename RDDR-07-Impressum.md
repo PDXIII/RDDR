@@ -1,20 +1,13 @@
 ---
-layout: pageWithSideBar
+layout: imprint
 title: Impressum
 id: imprint
 category: toplevel
 number: 6
 ---
 
-#### Eidesstattliche Erklärung
-Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst habe. Ich habe keine anderen, als die angegebenen Quellen oder Hilfsmittel benutzt, sowie Zitate als solche kenntlich gemacht.
-
-Peter Sekan <br />
-Berlin, im Februar 2014 
-
 #### Abschlussarbeit für den Titel:
-Interfacedesigner (Bachelor of Arts) <br />
- <br />
+__Interface Designer (Bachelor of Arts)__<br />
 an der<br />
 Fachhochschule Potsdam <br />
 Pappelallee 8–9<br />

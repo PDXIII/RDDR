@@ -19,7 +19,7 @@ Tumblr begeistert durch seine Einfachheit. Man ist schnell angemeldet und bereit
 
 {% include singleImageWithCaption.html param1="Tumblr-MegaEditor-Desktop.png" param2="Übersicht über die eingenen Posts" %}
 
-Wird ein Post erstellt, hat der User die Möglichkeit, diesen zu taggen. Nach diesen Tags kann gesucht werden, einzeln, aber auch nach mehreren. Somit hat man die Möglichkeit, gezielt nach Einträgen zu suchen und diese auch zu filtern.
+Wird ein Post erstellt, hat der User die Möglichkeit, diesen zu taggen. Nach diesen Tags kann gesucht werden, einzeln, aber auch nach mehreren. Somit ist es möglich, gezielt nach Einträgen zu suchen und diese auch zu filtern.
 
 Die Desktop Version der Website erlaubt es dem User, seinen Feed per Keyboard zu steuern, was das rebloggen und favorisieren von Posts vereinfacht und beschleunigt. Tumblr verfügt zudem über eine gut ausgebaute und dokumentierte API, die es erlaubt, selbst Applikationen zu schreiben. So kann ein Feed, sei es der eigene, der eines anderen Users oder die Suche nach einem oder mehreren Tags abgefragt werden. Das Ergebnis kann dann bspw. in eine Homepage eingebettet werden.
 
@@ -39,7 +39,7 @@ Der Feed ist durch sein mehrspaltiges Layout wesentlich komplexer als bei Tumblr
 
 Interessant ist auch, dass Pinterest sehr schnell überprüfen kann, ob schon etwas zuvor gepostet wurde. Ist das der Fall, so wird gleich nach Abschluss des Posts gezeigt, auf welchem Pinboard das Bild ebenfalls zu finden ist. So wird der User auch wieder auf neue Pinboards und User aufmerksam, denen er dann ebenfalls folgen kann und die seinen Feed noch erlebnisreicher machen.
 
-Wie bei Tumblr, bekommt der User ein Werkzeug zur Verfügung gestellt, um Pins direkt an ihrer Quelle zu erstellen, ohne zur Pinterest Seite wechseln zu müssen. In diesem Fall eine Browser-Erweiterung und natürlich die Applikationen für mobile Geräte.  Dazu kommt noch, dass auf vielen Internetseiten schon ein Pinterest Button eingebaut ist, der das Pinnen, der dort veröffentlichten Inhalte zusätzlich vereinfacht. Dieses letzte Feature bietet Tumblr auch an, wird jedoch nicht nicht sooft bedient, wie das von Pinterest.
+Wie bei Tumblr, bekommt der Benutzer ein Werkzeug zur Verfügung gestellt, um Pins direkt an ihrer Quelle zu erstellen, ohne zur Pinterest Seite wechseln zu müssen. In diesem Fall eine Browser-Erweiterung und natürlich die Applikationen für mobile Geräte.  Dazu kommt noch, dass auf vielen Internetseiten schon ein Pinterest Button eingebaut ist, der das Pinnen, der dort veröffentlichten Inhalte zusätzlich vereinfacht. Dieses letzte Feature bietet Tumblr auch an, wird jedoch nicht nicht sooft bedient, wie das von Pinterest.
 
 Und zu erwähnen ist noch die Suche, die wirklich sehr gute Ergebnisse liefert und anscheinend auf einer Volltext-Suche basiert, da keine Tags vergeben werden können. Bei einigen Versuchen mit mehreren Schlagworten, kamen wirklich sehr gute Ergebnisse heraus.
 
@@ -51,7 +51,7 @@ Poutsch gibt ein gutes Beispiel, dass Umfragen nicht weh tun müssen und wie man
 
 {% include twoImagesWithCaption.html param1="Poutsch-Frage-Mobile-00.png" param2="Eine einfache Frage auf Poutsch" param3="Poutsch-Frage-Mobile-02.png" param4="und die Auswertung" %}
 
-Die Idee dahinter ist sehr gut, ob es sich auf lange Zeit durchsetzen wird, sei dahin gestellt. Auch wenn es wirklich schön und simpel gestaltet ist, fesseln die Fragen nicht so sehr, wie die Bilder in einem Pinterest oder Tumblr Feed. Das liegt auch an der Qualität der Fragen. Die derzeit auf Poutsch gestellten, sind leider oft vom Kreationismus oder Konsum getrieben („Do you believe in God?” oder „IPhone 5s vs HTC one vs Samsung Galaxy S4?”).
+Die Idee dahinter ist sehr gut. Eb sie sich auf lange Zeit durchsetzen wird, wird sich zeigen. Auch wenn es wirklich schön und simpel gestaltet ist, fesseln die Fragen nicht so sehr, wie die Bilder in einem Pinterest oder Tumblr Feed. Das liegt auch an der Qualität der Fragen. Die derzeit auf Poutsch gestellten, sind leider oft vom Kreationismus oder Konsum getrieben („Do you believe in God?” oder „IPhone 5s vs HTC one vs Samsung Galaxy S4?”).
 
 Zu Testzwecken habe ich dem Netzwerk eine Frage gestellt und bin sehr gespannt, wie viele User ihre Meinung dazu abgeben.
 

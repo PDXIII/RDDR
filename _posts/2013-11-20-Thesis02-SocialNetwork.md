@@ -10,20 +10,20 @@ Daher muss die Erstellung von Objekten transparenter erfolgen und mehr Benutzer 
 
 #### Methode
 
-Der Entwurf sieht vor, dass der Benutzer, ob angemeldet oder nicht, als erstes dazu angehalten wird über die Eigenschaften von Objekte abzustimmen. Das soll zum einen die fehlende Differenzierung der Semantischen Differenziale kompensieren, zum anderen den Benutzer auf andere Objekte aufmerksam machen. 
+Der Entwurf sieht vor, dass der Benutzer, ob angemeldet oder nicht, als erstes dazu angehalten wird über die Eigenschaften von fremden Objekte abzustimmen. Das soll zum einen die fehlende Differenzierung der Semantischen Differenziale kompensieren, zum anderen den Benutzer auf andere Objekte aufmerksam machen. 
 
-Dabei wird auf das selbe Interface zurück gegriffen, wie bei der Erstellung eines Objektes, genauer beim Beantworten der Semantischen Differenzialen. 
+Dabei wird auf das selbe Interface zurückgegriffen, wie bei der Erstellung eines Objektes, genauer beim Beantworten der Semantischen Differenzialen. 
 
 {% include fourImagesWithCaption.html param1="Screen-05-down.jpg" param2="Der Benutzer überspringt das Objekt" param3="Screen-06-up.jpg" param4="Swipe nach oben zur Information" param5="Screen-17-Info-01.jpg" param6="Die Informationsansicht" param7="Screen-14-Data.jpg" param8="Die Gesamtauswertung" %}
 
 
 Allerdings hat der Benutzer nun auch die Möglichkeit das Objekt en detail zu betrachten und nach abgeschlossener Abstimmung sieht er gleich eine Auswertung des bisherigen Abstimmverhaltens. Nun folgt das nächste Objekt mit einer anderen Frage.
 
-Um die Motivation zur Bewertung und Interaktion mit fremden Objekten zu halten und ggf. zu erhöhen erhält der Benutzer „Belohnungen“ in Form von Auszeichungen und Rechten. So ist es anfangs nur möglich eigene Objekte zu seinen Clustern hinzuzufügen. Hat er jedoch eine bestimmte Anzahl von Abstimmungen getätigt, kann er auch fremde Objekte zu seinen eigenen Clustern hinzufügen. 
+Um die Motivation zur Bewertung und Interaktion mit fremden Objekten zu halten und ggf. zu erhöhen erhält der Benutzer „Belohnungen“ in Form von Auszeichungen und Rechten. So ist es beispielsweise anfangs nur möglich eigene Objekte zu seinen Clustern hinzuzufügen. Hat er jedoch eine bestimmte Anzahl von Abstimmungen getätigt, kann er auch fremde Objekte zu seinen eigenen Clustern hinzufügen. 
 
 Die derzeitige Möglichkeit, jedes Objekt kommentieren zu können, wurde in der Vergangenheit nicht genutzt und scheint an dieser Stelle auch fehl am Platz. Sinnvoller ist dies eher bei den Clustern, da diese über einen grossen Editorial Teil verfügen, der Stoff für Diskussionen liefern kann. Die Möglichkeit ein fremdes Cluster zu kommentieren, wäre ein weiteres Recht, dass sich der Benutzer über die Abstimmungen verdienen kann. 
 
-Wird ein solcher Kommentar vom Cluster Eigner angenommen, d.h. er wird freigeschaltet und ist für jeden sichtbar, erhält der Kommentarschreiber eine Auszeichnung, die ihn als akzeptierten Kritiker ausweist. Diese Auszeichungen können verschiedene Ränge haben, um so eine Expertise über diesen Benutzer zu bieten. Weitere Auszeichungen könnten folgende sein:
+Wird ein solcher Kommentar vom Cluster Eigentümer angenommen, d.h. er wird freigeschaltet und ist für jeden sichtbar, erhält der Kommentarschreiber eine Auszeichnung, die ihn als akzeptierten Kritiker ausweist. Diese Auszeichungen können verschiedene Ränge haben, um so eine Expertise über diesen Benutzer zu bieten. Weitere Auszeichungen könnten folgende sein:
 
 + Cluster Master: Benutzer mit vielen gut ausgefüllten Clustern.
 + Super Poster: Benutzer der sehr viele Objekte in kurzer Zeit veröffentlicht hat.
