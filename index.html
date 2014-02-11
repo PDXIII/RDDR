@@ -17,7 +17,7 @@ id: home
 		{% assign sorted_pages = site.pages | sort:"name" %}
 		{% for p in sorted_pages %}
 		{% if p.category == 'index' %}
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<h2>
 				<a href="/RDDR{{ p.url }}">
 					{{ p.title }}

@@ -2,26 +2,6 @@
 layout: post
 title: Werkzeug Design Radar
 category: analysis
-lightbox: [
-Desktop-DesignRadar-00.png,
-Desktop-DesignRadar-01.png,
-Desktop-DesignRadar-Objekt-WP.png,
-DR-Textkatalog01.png,
-DR-Textkatalog02.png,
-DR-Textkatalog03.png,
-DR-Differenzial.png,
-Desktop-DesignRadar-Cluster-WP.png
-]
-caption: [
-Die „Objects“ Ansicht - alle Objekte des Design Radar,
-Die „MyRadar“ Ansicht - das eigene Back End,
-Das Objekt komplett abgebildet,
-Input Detail - Bei der Texteingabe wird dem Benutzer …,
-… ein Begriffskatalog in Form eines Dropdowns zur Verfügung gestellt …,
-… das beschleunigt die Eingabe und verhindert unterschiedliche Schreibweisen,
-Das Semantische Differenzial zur räumlich physikalischen Wirkung des Objekts,
-Der Cluster komplett abgebildet
-]
 ---
 
 Das Werkzeug basiert derzeit auf einer Wordpress Installation, was durchaus ein guter Anfang ist, jedoch auf lange Sicht, mehr Nach-, als Vorteile mit sich bringt. Wordpress eignet sich gut zum Befüllen einer Datenbank mit Designobjekten, die Vorkonfektioniertheit des Wordpress Frameworks schränkt aber die kreative Umsetzung von Werkzeugen, wie dem Design Radar, stark ein. Jegliche Interaktion fühlt sich sehr _bloggig_ an. 
@@ -34,11 +14,17 @@ Der User landet auf der _Objects_ Ansicht. Es gibt hier die Möglichkeit sich al
 
 ##### Objekt
 
+{% include singleImageWithCaption.html param1="Desktop-DesignRadar-Objekt-WP.png" param2="Das Objekt komplett abgebildet"	%}
+
 Die Eingabemaske verlangt eine Fülle von Parameter, die der Vollständigkeit halber im Glossar unter Objekt aufgelistet sind. Sehr Praktisch ist, dass dem Benutzer für einige Felder (u.a. Farben, Designer, Material) ein Katalog zur Verfügung steht, aus dem er schon Gelistetes auswählen kann. Dies stellt sich einem Auto-Complete-Drop-Down-Menu dar.
+
+{% include twoImagesWithCaption.html param1="DR-Textkatalog02.png" param2="Input Detail - Bei der Texteingabe wird dem Benutzer …," param3="DR-Differenzial.png" param4="Das Semantische Differenzial zur räumlich physikalischen Wirkung des Objekts," %}
 
 Besondere Beachtung verdienen die beiden semantischen Differentiale. Unter den Punkten _Räumlich physikalische Wirkung_ und _Assoziative Wirkung_ finden sich einmal 8 und einmal 16 Extrempaare, zwischen denen, mithilfe eines Schiebereglers auf einer 5er-Skala, differenziert werden kann. Unüblich, aber möglich, ist die Option keine Angaben zu machen. In diesem Fall wird das betreffende Extrempaar ausgegraut. Insgesamt kann der Design Radar User Angaben zu 35 Parametern machen.
 
 ##### Cluster
+
+{% include singleImageWithCaption.html param1="Desktop-DesignRadar-Cluster-WP.png" param2="Der Cluster komplett abgebildet" %}
 
 Wenn ein neuer Cluster erstellt wurde, sind erst einmal alle Objekte in ihm enthalten (Big Bug!!!). Das ändert sich erst, wenn andernorts ein Objekt dem Cluster hinzugefügt wurde. Das geht unter der Ansicht _Objects_ und wird unter dem nachfolgenden Punkt beschrieben. Grob kann man den Cluster in drei Bereiche einteilen: die _Objekte_, den generativen Teil _Auffälligkeiten_ und den editorial Teil. Die _Objekte_ werden durch das ihnen eigene Bild repräsentiert, durch einen Klick darauf gelangt man zur Objektanzeige. Der Bereich _Auffälligkeiten_ generiert sich durch die Parameter der hinzugefügten Objekte. Leider werden nur die Parameter _Designer, Materialeigenschaften, Farbpalette und Assoziative Tags_ in Betracht gezogen. Der editorial Teil führt die Punkte auf, die schon von der InDesign Vorlage bekannt sind.
 

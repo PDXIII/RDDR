@@ -7,4 +7,4 @@ date: 2013-10-01
 number: 1
 ---
 
-Wieso ist das von Bedeutung?
+Einstieg in die Thematik Design Radar und warum es von Bedeutung ist.
