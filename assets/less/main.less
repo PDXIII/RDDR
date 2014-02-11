@@ -1,0 +1,110 @@
+@import 'bootstrap/bootstrap.less';
+@import 'variables.less';
+@import 'bootswatch.less';
+@import 'lightbox.less';
+
+// mixin
+
+.hyphenate{
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+// Non standard for webkit
+word-break: break-word;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+
+	-webkit-hyphenate-before: 2;
+	-webkit-hyphenate-after: 3;
+	hyphenate-lines: 3;
+}
+
+div > p{
+	.hyphenate;
+}
+
+button{
+	background: transparent;
+	border: none;
+	text-align: left;
+	padding: 0;
+	h3{
+		color: #2a6496;
+	}
+}
+
+.sidebar{
+	overflow: hidden;
+	margin-bottom: 3em;
+
+	li{
+		float: left;
+		list-style-type: none;
+		margin-right: 2em;
+		margin-bottom: .5em;
+	}
+	
+	@media (min-width: 992px) {
+		position: fixed;
+		width: 20%;
+		li{
+			float: none;
+		}
+	}	
+}
+
+.previewtile{	
+	margin-bottom: .5em;
+}
+
+.closeButton{
+	margin-top: -.75em;
+}
+
+blockquote{
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	p{
+		font-style: italic;
+		font-weight: 400;
+	}
+
+	li{
+		margin-bottom: 0.625rem;
+	}
+	small{
+		margin-top: 0.625rem;
+		text-align: right;
+	}
+}
+
+blockquote:before{
+	content:"»";
+	color: @gray-light;
+	font-size: 4rem;
+	font-weight: 300;
+	line-height: @font-size-base;
+	margin-left: (@font-size-base * -1.25);
+	float: left;
+}
+
+footer{
+	border-top: 1px solid @gray-lighter;
+	padding: 1em 1em 0;
+	margin-top: 5em;
+	p{
+		text-align: center;
+		font-style: italic;
+		font-size: @font-size-small;
+		span{
+			width: .5em;
+			display: inline-block;
+		}
+	}
+}

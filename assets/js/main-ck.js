@@ -1,0 +1,1 @@
+function init(){$("title").html()==="Glossar"&&audiojs.events.ready(function(){var e=audiojs.createAll()})}onload=function(){init()};onresize=function(){init()};

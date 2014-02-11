@@ -1,0 +1,29 @@
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/RDDR/">RDDR</a>
+		</div>
+		<!-- fix mobile collapse -->
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+			{% assign sorted_pages = site.pages | sort:"name" %}
+			{% for p in sorted_pages %}
+			{% if p.id != "home" %}
+				<li>
+					<a href="/RDDR{{ p.url }}">
+						{{ p.title }}
+					</a>
+				</li>
+			{% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
