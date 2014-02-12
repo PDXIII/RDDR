@@ -14,7 +14,7 @@ Der Entwurf sieht vor, dass der Benutzer, ob angemeldet oder nicht, als erstes d
 
 Dabei wird auf das selbe Interface zurückgegriffen, wie bei der Erstellung eines Objektes, genauer beim Beantworten der Semantischen Differenzialen. 
 
-{% include fourImagesWithCaption.html param1="Screen-05-down.jpg" param2="Der Benutzer überspringt das Objekt" param3="Screen-06-up.jpg" param4="Swipe nach oben zur Information" param5="Screen-17-Info-01.jpg" param6="Die Informationsansicht" param7="Screen-14-Data.jpg" param8="Die Gesamtauswertung" %}
+{% include fourImagesWithCaption.html param1="Down.jpg" param2="Der Benutzer überspringt das Objekt" param3="Up.jpg" param4="Swipe nach oben zur Information" param5="Info.jpg" param6="Die Informationsansicht" param7="Auswertung.jpg" param8="Die Gesamtauswertung" %}
 
 
 Allerdings hat der Benutzer nun auch die Möglichkeit das Objekt en detail zu betrachten und nach abgeschlossener Abstimmung sieht er gleich eine Auswertung des bisherigen Abstimmverhaltens. Nun folgt das nächste Objekt mit einer anderen Frage.

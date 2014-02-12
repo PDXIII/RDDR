@@ -6,6 +6,14 @@ category: source
 
 Das Screendesign wurde mit Hilfe folgender Werzeuge und Materialien erstellt.
 
+#### Produktfotos
+
++ Barcelona Chair
+Quelle: [Knoll](http://www.knoll.com/product/barcelona-chair)
++ Regalsystem 606:
+Quelle: [Vitsoe @ Wikipedia](http://commons.wikimedia.org/wiki/File:606-Universal-Shelving-System.jpg)
+
+
 #### Hand Gesten Illustration
 Die Firma [GestureWorks®](http://gestureworks.com) versucht eine einheitliche Auszeichnungssprache für Hand Gesten in bezug auf Multitouch Anwendungen zu erschaffen. Dafür stellen sie unter CC-Lizens ihre bisher gesammelten Gesten zur Verfügung. Da ich nicht besonders gut bin, Hände zu malen, habe ich mich bei Ihren Illustrationen bedient.
 

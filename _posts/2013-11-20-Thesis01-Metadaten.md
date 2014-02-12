@@ -27,7 +27,7 @@ Die Ausgabe gibt die Eingabe ohne jegliche Abstraktion wider, was zu folgenden P
 
 Hat der User ein Objekt neu angelegt, ein Foto damit verknüpft und die ersten Angaben in Textform abgeschlossen, fragt ihn das Objekt selbstständig nach seinem Aussehen und seiner Wirkung.
 
-{% include fourImagesWithCaption.html param1="Screen-01-LandingPage-User.jpg" param2="Das Objekt erfragt immer nur einen Parameter" param3="Screen-03-left.jpg" param4="Die Entscheidung fällt der Benutzer …" param5="Screen-04-right.jpg" param6="… durch schieben des Objektes in die entsprechende Richtung." param7="Screen-18-Info-02.jpg" param8="Ein besser lesbare Auswertung."%}
+{% include fourImagesWithCaption.html param1="LandingPage.jpg" param2="Das Objekt erfragt immer nur einen Parameter" param3="Left.jpg" param4="Die Entscheidung fällt der Benutzer …" param5="Right.jpg" param6="… durch schieben des Objektes in die entsprechende Richtung." param7="DNA.jpg" param8="Ein besser lesbare Auswertung."%}
 
 Was in dem hier dargestellten Smartphone Layout durch schieben des Objektes, also einer Touch Geste, geschieht, findet sein Pendant auf dem Lap- oder Desktop Computer durch Interaktion mit der Mouse (drag and drop oder klicken in die entsprechende Richtung) und alternativ als Tastatursteuerung mit den Pfeiltasten (und w, s, a, d für Linkshänder oder Computerspieler). Der Einsatz von Animationen erhöht den Spass bei der Benutzung der Applikation und somit auch die Bereitschaft sich mit dem Werkzeug auseinander zusetzen.
 
