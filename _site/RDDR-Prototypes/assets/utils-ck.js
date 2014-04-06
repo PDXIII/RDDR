@@ -1,2 +1,0 @@
-// receivs an array of values and returns it in percent
-function returnPercent(e){var t=0,n=[];for(var r=0;r<e.length;r++)t+=e[r];for(var r=0;r<e.length;r++)n.push(100/t*e[r]);return n}function returnOpacity(e){return e/100};
