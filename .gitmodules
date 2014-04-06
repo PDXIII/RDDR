@@ -1,0 +1,6 @@
+[submodule "RDDR"]
+	path = RDDR
+	url = git@github.com:PDXIII/RDDR.git
+[submodule "RDDR-Prototypes"]
+	path = RDDR-Prototypes
+	url = git@github.com:PDXIII/RDDR-Prototypes.git

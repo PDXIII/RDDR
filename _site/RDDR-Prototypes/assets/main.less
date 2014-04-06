@@ -1,0 +1,236 @@
+@import 'fonts.less';
+@import 'font-awesome-4.0.3/less/font-awesome.less';
+
+@lightBlue : #172d4d;
+@darkBlue : #001533;
+@lightPink : #ff00c1;
+@darkPink : #bd10e0;
+@creme : #fffaf2;
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.textShadow(@color){
+	text-shadow: -1px -1px -1px @color;
+}
+
+.objectShadow(@color) {
+	// box-shadow: 0 -3px 3px lighten( @creme, 10%), 0 3px 3px @color ;
+	box-shadow: 0 1px 2px 1px @color ;
+}
+
+.boldTypeBlue{
+	color: @lightBlue;
+	font-family: 'PT_Sans-Narrow Bold';
+	.textShadow(@darkBlue);
+	letter-spacing: .04em;
+}
+.regularTypeBlue{
+	color: @lightBlue;
+	font-family: 'PT_Sans-Narrow Regular';
+	.textShadow(@darkBlue);
+	letter-spacing: .04em;
+}
+
+.boldTypePink{
+	color: @lightPink;
+	font-family: 'PT_Sans-Narrow Bold';
+	.textShadow(@darkPink);
+	letter-spacing: .04em;
+}
+.regularTypePink{
+	color: @lightPink;
+	font-family: 'PT_Sans-Narrow Regular';
+	.textShadow(@darkPink);
+	letter-spacing: .04em;
+}
+
+.boldTypeCreme{
+	color: @creme;
+	font-family: 'PT_Sans-Narrow Bold';
+	letter-spacing: .04em;
+}
+
+.regularTypeCreme{
+	color: @creme;
+	font-family: 'PT_Sans-Narrow Regular';
+	letter-spacing: .06em;
+}
+
+.mainQuestion {
+	.regularTypeBlue;
+	text-align: center;
+	font-size: 48px;
+	line-height: 52px;
+}
+
+.attribute {
+	.regularTypePink;
+	font-size: 24px;
+}
+
+.answers {
+	.regularTypePink;
+	text-align: center;
+	font-size: 48px;
+	line-height: 52px;
+}
+
+.left,
+.keyView {
+	text-align: right;
+}
+
+.right,
+.valueView,
+.descriptionText {
+	text-align: left;
+}
+
+.center,
+.action,
+.infoGui,
+.resultlabel,
+.label,
+.infoHeadline,
+.objName {
+	text-align: center;
+}
+
+.label{
+	.boldTypeBlue;
+	font-size: 18px;
+}
+
+.resultlabel{
+	.boldTypeBlue;
+	font-size: 24px;
+}
+
+.result {
+	background-color: @creme;
+	border-radius: 50%;
+	overflow: hidden;
+	.objectShadow(@lightBlue);
+}
+
+.activeResult {
+	border: 2px solid @lightPink;
+	.colorLayer{
+		box-shadow: inset -2px -2px 0px 4px @creme ;
+	}
+}
+
+.inactive {
+	// color: rgba(22, 45, 75, 0.5);
+}
+
+.dragObject {
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 50%;
+	.objectShadow(@lightBlue);
+}
+
+.colorLayer,
+.miniResult {
+	background-color: @lightPink;
+	border-radius: 50%;
+}
+
+.clusterColorLayer {
+	background-color: @lightPink;
+	border-radius: 10%;
+}
+
+.action {
+	.regularTypeBlue;
+	font-size: 24px;
+}
+
+.infoImage {
+	border-radius: 50%;
+	.objectShadow(@lightBlue);
+}
+
+.clusterInfoImage{
+	border-radius: 10%;
+	.objectShadow(@lightBlue);
+}
+
+.infoGui {
+	cursor: pointer;
+	border: 2px solid @lightBlue;
+	// padding: 
+}
+
+.valueView,
+.descriptionText,
+.pair {
+	.regularTypeBlue;
+	font-size: 18px;
+}
+
+.keyView,
+.infoGui,
+.infoHeadline {
+	.boldTypeBlue;
+	font-size: 18px;
+}
+
+.scrollField {
+	box-shadow: inset 0px 1px 3px 0px @lightBlue;
+}
+
+.infoView {
+	background-color: @creme;
+}
+
+.textField {
+	cursor: text;
+}
+
+.descriptionText{
+	line-height: 1.2em;
+}
+
+.objName{
+	// .boldTypeCreme;
+	.regularTypeCreme;
+	font-size: 17px;
+	line-heigth: 17px;
+}
+.btn{
+	cursor: pointer;
+}
+
+.keyValueView {
+	overflow: hidden;
+	width: 100%;
+}
+
+.scrollShadow{
+	overflow: hidden; 
+	background-color: @creme;
+	box-shadow: 0px -1px 0px 1px @creme, 0px 1px 3px 0px @lightBlue;
+}
+
+.smallClusterIcon + .smallClusterIcon{
+	.objectShadow(@lightBlue);
+	border-radius: 18px;
+}
+
+.nav{
+	i{
+		color: @creme;
+	}
+	a{
+		text-decoration: none;
+		.regularTypeCreme;
+		font-size: 18px;
+	}
+}
