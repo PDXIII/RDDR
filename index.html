@@ -5,29 +5,28 @@ id: home
 ---
 
 <div class="jumbotron">
-	<div class="container">
-		<h1>{{ page.title }}</h1>
-		<p>Diese Seite ist die Online Dokumentation meiner Bachelor Thesis.</p>
-		<p><a class="btn btn-success btn-lg" role="button" href="/RDDR/RDDR-01-Einleitung.html">Starten Sie hier! &raquo;</a></p>
-	</div>
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p>Diese Seite ist die Online Dokumentation meiner Bachelor Thesis.</p>
+    <p><a class="btn btn-success btn-lg" role="button" href="/RDDR/RDDR-01-Einleitung.html">Starten Sie hier! &raquo;</a></p>
+  </div>
 </div>
-
 <div class="container">
-	<div class="row">
-		{% assign sorted_pages = site.pages | sort:"name" %}
-		{% for p in sorted_pages %}
-		{% if p.category == 'index' %}
-		<div class="col-md-4">
-			<h2>
-				<a href="/RDDR{{ p.url }}">
-					{{ p.title }}
-				</a>
-		</h2>
-			<p>
-				{{ p.content | truncate: 160 | markdownify}} 
-			</p>
-		</div>
-		{% endif %}
-		{% endfor%}
-	</div>
+  <div class="row">
+    {% assign sorted_pages = site.pages | sort:"name" %}
+    {% for p in sorted_pages %}
+    {% if p.category == 'index' %}
+    <div class="col-md-4">
+      <h2>
+        <a href="/RDDR{{ p.url }}">
+          {{ p.title }}
+        </a>
+    </h2>
+      <p>
+        {{ p.content | truncate: 160 | markdownify}} 
+      </p>
+    </div>
+    {% endif %}
+    {% endfor%}
+  </div>
 </div>

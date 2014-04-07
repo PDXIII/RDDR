@@ -1,30 +1,29 @@
 ---
 layout: default
 ---
+
 <header>
   {% include mainNav.html %}
 </header>
-
 <div class="container">
-
-	<div class="row">
-		<div class="col-md-3">
-			<div class="sidebar">
-				<h2>{{page.title }}</h2>
-					<h3>Eidesstattliche Erklärung</h3>
-					<blockquote>
-						<p>
-							Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst habe. Ich habe keine anderen, als die angegebenen Quellen oder Hilfsmittel benutzt, sowie Zitate als solche kenntlich gemacht.
-						</p>
-					</blockquote>
-					<small>
-						Peter Sekan <br />
-						Berlin, im Februar 2014 
-					</small>
-				</div>
-			</div>
-		<div class="col-md-8">
-			{{ content }}
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar">
+        <h2>{{page.title }}</h2>
+          <h3>Eidesstattliche Erklärung</h3>
+          <blockquote>
+            <p>
+              Hiermit erkläre ich, dass ich die vorliegende Arbeit selbstständig verfasst habe. Ich habe keine anderen, als die angegebenen Quellen oder Hilfsmittel benutzt, sowie Zitate als solche kenntlich gemacht.
+            </p>
+          </blockquote>
+          <small>
+            Peter Sekan <br />
+            Berlin, im Februar 2014 
+          </small>
+        </div>
+      </div>
+    <div class="col-md-8">
+      {{ content }}
+    </div>
+  </div>
 </div>
